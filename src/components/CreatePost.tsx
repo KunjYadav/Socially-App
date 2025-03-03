@@ -7,8 +7,8 @@ import { Avatar, AvatarImage } from "./ui/avatar";
 import { Textarea } from "./ui/textarea";
 import { ImageIcon, Loader2Icon, SendIcon } from "lucide-react";
 import { Button } from "./ui/button";
-import { createPost } from "@/actions/post.action";
 import toast from "react-hot-toast";
+import { createPost } from "@/actions/post.action";
 import ImageUpload from "./ImageUpload";
 
 function CreatePost() {
