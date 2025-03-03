@@ -1,5 +1,3 @@
-export const dynamic = 'force-static';
-
 interface Task {
   id: number;
   title: string;
