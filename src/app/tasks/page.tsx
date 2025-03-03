@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 async function TasksPage() {
   const response = await fetch('https://socially-app-psi.vercel.app/api/tasks', {
     cache: 'no-store',
